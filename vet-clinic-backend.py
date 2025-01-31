@@ -3,9 +3,8 @@ breedText = "Введите, пожалуйста, породу питомца:"
 ageText = "Введите возраст питомца:"
 nicknameText = "Введите кличку питомца:"
 
-print(startText)
+print(startText, breedText)
 
-print(breedText)
 breedPet = input()
 
 print(ageText)

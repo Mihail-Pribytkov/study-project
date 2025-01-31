@@ -21,6 +21,6 @@ print(questions[3])
 question_3 = input()
 
 print(questions[4])
-question_3 = input()
+question_4 = input()
 
 print(question_1,  question_2, question_3, sep='=>')

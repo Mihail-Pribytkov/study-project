@@ -11,15 +11,15 @@ print(startText)
 input()
 
 print(questions[1])
-question_1 = input()
+answerQuestion_1 = input()
 
 print(questions[2])
-question_2 = input()
+answerQuestion_2 = input()
 
 print(questions[3])
-question_3 = input()
+answerQuestion_3 = input()
 
 print(questions[4])
-question_4 = input()
+answerQuestion_4 = input()
 
-print(question_1,  question_2, question_3, sep='=>')
+print(answerQuestion_1,  answerQuestion_2, answerQuestion_3, sep='=>')

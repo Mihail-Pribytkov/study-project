@@ -1,6 +1,6 @@
 print("Введите стороны прямоугольника")
 
-a, b, c, d = map(int, input().split())
+a, b, c, d = map(float, input().split())
 
 area = a * b;
 perimeter = ((a + b) * 2)

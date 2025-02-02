@@ -10,15 +10,15 @@ vowels = "A", "E", "I", "O", "U", "Y"
 vowels_count = 0
 consonants_count = 0
 
-inputText = str(input())
+input_text = str(input())
 
-for char in inputText.upper(): 
+for char in input_text.upper(): 
     if char in vowels:
         vowels_count += 1
     elif char in consonants:
         consonants_count += 1
 
 if vowels_count and consonants_count != 0:
-    print(f"В тексте '{inputText}' {vowels_count} гласных и {consonants_count} согласных.")
+    print(f"В тексте '{input_text}' {vowels_count} гласных и {consonants_count} согласных.")
 else:
     print("false")

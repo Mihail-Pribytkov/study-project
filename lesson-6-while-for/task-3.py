@@ -11,4 +11,4 @@ for num in range(a, b + 1):
         even_numbers.append(num)
         
 output_string = " ".join(map(str, even_numbers))
-print(f"Четные числа в диапазоне от {a} до {b} = {even_numbers}")
+print(f"Четные числа в диапазоне от {a} до {b} = {output_string}")

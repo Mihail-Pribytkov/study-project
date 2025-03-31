@@ -7,6 +7,6 @@
 tmp = input("Введит слово: ").lower().replace(" ", "")
 
 if tmp == tmp[::-1]:
-    print("yes")
+    print("это слово является палиндромом")
 else:
-    print("no")
+    print("Это слово не явлеяется палиндромом")
